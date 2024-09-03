@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "X6ksbGSmMrlIRhHkamhNN8PSJlkz7E5QhS+NDjrN8tU=",
+  "Source": "TheTestApp.API",
+  "BasePath": "_content/TheTestApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
