@@ -2,7 +2,7 @@ using TheTestApp;
 
 namespace StudyGroupTests
 {
-    public class JoinStudyGroupTests
+    internal class JoinStudyGroupTests : StudyGroupTestSetup
     {
         [Test]
         public void GivenAnExistingGroupAndValidStudent_WhenJoinStudyGroup_ThenSuccess()
