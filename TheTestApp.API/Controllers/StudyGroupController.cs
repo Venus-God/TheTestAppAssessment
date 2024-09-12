@@ -25,7 +25,11 @@ namespace TheTestApp.API.Controllers
             }
             //I could add functionality to check for duplicates
 
-            await _studyGroupRepository.CreateStudyGroup(studyGroup);
+            var results = await _studyGroupRepository.CreateStudyGroupAsync(studyGroup);
+            if (results) 
+            {
+                return NotFound("Checking");
+            }
             return Ok();
         }
 
@@ -41,9 +45,13 @@ namespace TheTestApp.API.Controllers
         }
 
         [HttpGet("search")]
-        public async Task<IActionResult> SearchStudyGroups([FromQuery] string subject)
+        public async Task<IActionResult> SearchStudyGroups([FromQuery] Subject subject)
         {
             var studyGroups = await _studyGroupRepository.SearchStudyGroups(subject);
+            if (!studyGroups.Any())
+            {
+                return NotFound("No study groups found");
+            }
             return Ok(studyGroups);
         }
 
@@ -57,8 +65,13 @@ namespace TheTestApp.API.Controllers
         [HttpPost("{studyGroupId}/leave")]
         public async Task<IActionResult> LeaveStudyGroup(int studyGroupId, [FromBody] int userId)
         {
-            await _studyGroupRepository.LeaveStudyGroup(studyGroupId, userId);
-            return Ok();
+            var results = await _studyGroupRepository.LeaveStudyGroup(studyGroupId, userId);
+            if (results)
+            {
+                return Ok("Student Removed from the group");
+            }
+            return NotFound("Student is not in the group or group does not exist");
+            
         }
     }
 }

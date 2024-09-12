@@ -1,4 +1,5 @@
-﻿using System.Xml.Linq;
+﻿using Microsoft.EntityFrameworkCore;
+using System.Xml.Linq;
 using TheTestApp.API.Enums;
 
 namespace TheTestApp.API.Models
@@ -32,6 +33,11 @@ namespace TheTestApp.API.Models
         public void RemoveUser(User user)
         {
             Users.Remove(user);
+        }
+
+        public static implicit operator DbSet<object>(StudyGroup v)
+        {
+            throw new NotImplementedException();
         }
     }
 }
