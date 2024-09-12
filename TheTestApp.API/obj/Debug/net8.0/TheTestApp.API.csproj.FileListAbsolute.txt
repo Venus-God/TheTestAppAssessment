@@ -31,3 +31,5 @@ C:\dev\TheTestApp\TheTestApp.API\obj\Debug\net8.0\refint\TheTestApp.API.dll
 C:\dev\TheTestApp\TheTestApp.API\obj\Debug\net8.0\TheTestApp.API.pdb
 C:\dev\TheTestApp\TheTestApp.API\obj\Debug\net8.0\TheTestApp.API.genruntimeconfig.cache
 C:\dev\TheTestApp\TheTestApp.API\obj\Debug\net8.0\ref\TheTestApp.API.dll
+C:\dev\TheTestApp\TheTestApp.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\dev\TheTestApp\TheTestApp.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll

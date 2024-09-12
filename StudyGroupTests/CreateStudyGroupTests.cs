@@ -1,6 +1,9 @@
 ﻿using TheTestApp.API.Models;
 using TheTestApp.API.Enums;
 using Microsoft.AspNetCore.Mvc;
+using Moq;
+using TheTestApp.API.DataLayer;
+using TheTestApp.API.Controllers;
 
 
 namespace StudyGroupTests
@@ -20,7 +23,12 @@ namespace StudyGroupTests
             var createDate = DateTime.Now;
             var users = new List<User>();
             var studyGroup = new StudyGroup(1, studyGroupName, Subject.Chemistry, createDate, users);
-            MockRepository.Setup(x => x.CreateStudyGroup(studyGroup)).Returns(Task.CompletedTask);
+            //MockRepository.Setup(x => x.CreateStudyGroupAsync(studyGroup)).Returns(Task.FromResult(true));
+            MockContext.Setup(x => x.StudyGroups = studyGroup);
+            MockRepository = new Mock<IStudyGroupRepository>(MockContext);
+            _studyGroupSUT = new StudyGroupController(MockRepository.Object);
+
+
             //Act
             var result = _studyGroupSUT.CreateStudyGroup(studyGroup);
 
@@ -37,7 +45,7 @@ namespace StudyGroupTests
             var createDate = DateTime.Now;
             var users = new List<User>();
             var studyGroup = new StudyGroup(1, studyGroupName, Subject.Chemistry, createDate, users);
-            MockRepository.Setup(x => x.CreateStudyGroup(studyGroup)).Returns(Task.CompletedTask);
+            MockRepository.Setup(x => x.CreateStudyGroupAsync(studyGroup)).Returns(Task.FromResult(true));
             //Act
             var result = _studyGroupSUT.CreateStudyGroup(studyGroup);
 
@@ -56,7 +64,7 @@ namespace StudyGroupTests
             var users = new List<User>();
             var studyGroupName = nameof(subject) + "Study Group";
             var studyGroup = new StudyGroup(1, studyGroupName, subject, createDate, users);
-            MockRepository.Setup(x => x.CreateStudyGroup(studyGroup)).Returns(Task.CompletedTask);
+            MockRepository.Setup(x => x.CreateStudyGroupAsync(studyGroup)).Returns(Task.FromResult(true));
             //Act
             var result = _studyGroupSUT.CreateStudyGroup(studyGroup);
 
@@ -66,13 +74,15 @@ namespace StudyGroupTests
         }
 
         [TestCase("DuplicateGroupName")]
+
+
         public void GivenDuplicateGroupName_WhenCreatingStudyGroup_ThenThrowAnError(string groupName)
         {
             //Arrange
             var createDate = DateTime.Now;
             var users = new List<User>();
             var studyGroup = new StudyGroup(1, groupName, Subject.Math, createDate, users);
-            MockRepository.Setup(x => x.CreateStudyGroup(studyGroup)).Returns(Task.CompletedTask);
+            MockRepository.Setup(x => x.CreateStudyGroupAsync(studyGroup)).Returns(Task.FromResult(false));
             //create the first group
             var duplicateStudygroup = _studyGroupSUT.CreateStudyGroup(studyGroup);
 

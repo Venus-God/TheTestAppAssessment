@@ -112,3 +112,5 @@ C:\dev\TheTestApp\StudyGroupTests\obj\Debug\net8.0\refint\StudyGroupTests.dll
 C:\dev\TheTestApp\StudyGroupTests\obj\Debug\net8.0\StudyGroupTests.pdb
 C:\dev\TheTestApp\StudyGroupTests\obj\Debug\net8.0\StudyGroupTests.genruntimeconfig.cache
 C:\dev\TheTestApp\StudyGroupTests\obj\Debug\net8.0\ref\StudyGroupTests.dll
+C:\dev\TheTestApp\StudyGroupTests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\dev\TheTestApp\StudyGroupTests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll

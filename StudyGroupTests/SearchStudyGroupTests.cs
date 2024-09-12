@@ -26,7 +26,7 @@ namespace StudyGroupTests
             {
                 studyGroup
             };
-            MockRepository.Setup(a => a.CreateStudyGroup(studyGroup));
+            MockRepository.Setup(a => a.CreateStudyGroupAsync(studyGroup));
             MockRepository.Setup(x => x.SearchStudyGroups(subject)).ReturnsAsync(searchedGroups);
 
             //act
@@ -50,7 +50,7 @@ namespace StudyGroupTests
             {
                 studyGroup
             };
-            MockRepository.Setup(a => a.CreateStudyGroup(studyGroup));
+            MockRepository.Setup(a => a.CreateStudyGroupAsync(studyGroup));
             MockRepository.Setup(x => x.SearchStudyGroups(subject)).ReturnsAsync(searchedGroups);
 
             //act
