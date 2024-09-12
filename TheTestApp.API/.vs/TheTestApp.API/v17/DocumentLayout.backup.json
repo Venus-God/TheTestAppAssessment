@@ -3,29 +3,29 @@
   "WorkspaceRootPath": "C:\\dev\\TheTestApp\\TheTestApp.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\dev\\TheTestApp\\TheTestApp.API\\obj\\TheTestApp.API.csproj.nuget.g.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\TheTestApp.API.csproj.nuget.g.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1914382D-C258-4012-9195-D85DA518CCD4}|..\\StudyGroupTests\\StudyGroupTests.csproj|c:\\dev\\thetestapp\\studygrouptests\\studygrouptestsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1914382D-C258-4012-9195-D85DA518CCD4}|..\\StudyGroupTests\\StudyGroupTests.csproj|c:\\dev\\thetestapp\\studygrouptests\\createstudygrouptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1914382D-C258-4012-9195-D85DA518CCD4}|..\\StudyGroupTests\\StudyGroupTests.csproj|c:\\dev\\thetestapp\\studygrouptests\\getstudygrouptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1914382D-C258-4012-9195-D85DA518CCD4}|..\\StudyGroupTests\\StudyGroupTests.csproj|c:\\dev\\thetestapp\\studygrouptests\\studygrouptestsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A1285F9-111A-4B39-94E1-4E9298DC7807}|TheTestApp.API.csproj|c:\\dev\\thetestapp\\thetestapp.api\\datalayer\\studygrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A1285F9-111A-4B39-94E1-4E9298DC7807}|TheTestApp.API.csproj|solutionrelative:datalayer\\studygrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A1285F9-111A-4B39-94E1-4E9298DC7807}|TheTestApp.API.csproj|c:\\dev\\thetestapp\\thetestapp.api\\datalayer\\istudygrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A1285F9-111A-4B39-94E1-4E9298DC7807}|TheTestApp.API.csproj|solutionrelative:datalayer\\istudygrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A1285F9-111A-4B39-94E1-4E9298DC7807}|TheTestApp.API.csproj|c:\\dev\\thetestapp\\thetestapp.api\\datalayer\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1285F9-111A-4B39-94E1-4E9298DC7807}|TheTestApp.API.csproj|solutionrelative:datalayer\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A1285F9-111A-4B39-94E1-4E9298DC7807}|TheTestApp.API.csproj|c:\\dev\\thetestapp\\thetestapp.api\\controllers\\studygroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A1285F9-111A-4B39-94E1-4E9298DC7807}|TheTestApp.API.csproj|solutionrelative:controllers\\studygroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1285F9-111A-4B39-94E1-4E9298DC7807}|TheTestApp.API.csproj|c:\\dev\\thetestapp\\thetestapp.api\\datalayer\\istudygrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1285F9-111A-4B39-94E1-4E9298DC7807}|TheTestApp.API.csproj|solutionrelative:datalayer\\istudygrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1914382D-C258-4012-9195-D85DA518CCD4}|..\\StudyGroupTests\\StudyGroupTests.csproj|c:\\dev\\thetestapp\\studygrouptests\\leavestudygrouptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A1285F9-111A-4B39-94E1-4E9298DC7807}|TheTestApp.API.csproj|c:\\dev\\thetestapp\\thetestapp.api\\models\\studygroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,6 +38,12 @@
     {
       "AbsoluteMoniker": "D:0:0:{8A1285F9-111A-4B39-94E1-4E9298DC7807}|TheTestApp.API.csproj|c:\\dev\\thetestapp\\thetestapp.api\\enums\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A1285F9-111A-4B39-94E1-4E9298DC7807}|TheTestApp.API.csproj|solutionrelative:enums\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1914382D-C258-4012-9195-D85DA518CCD4}|..\\StudyGroupTests\\StudyGroupTests.csproj|c:\\dev\\thetestapp\\studygrouptests\\getstudygrouptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1914382D-C258-4012-9195-D85DA518CCD4}|..\\StudyGroupTests\\StudyGroupTests.csproj|c:\\dev\\thetestapp\\studygrouptests\\joinstudygrouptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,44 +53,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TheTestApp.API.csproj.nuget.g.props",
-              "DocumentMoniker": "C:\\dev\\TheTestApp\\TheTestApp.API\\obj\\TheTestApp.API.csproj.nuget.g.props",
-              "RelativeDocumentMoniker": "obj\\TheTestApp.API.csproj.nuget.g.props",
-              "ToolTip": "C:\\dev\\TheTestApp\\TheTestApp.API\\obj\\TheTestApp.API.csproj.nuget.g.props",
-              "RelativeToolTip": "obj\\TheTestApp.API.csproj.nuget.g.props",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-09-03T18:53:58.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetStudyGroupTests.cs",
-              "DocumentMoniker": "C:\\dev\\TheTestApp\\StudyGroupTests\\GetStudyGroupTests.cs",
-              "RelativeDocumentMoniker": "..\\StudyGroupTests\\GetStudyGroupTests.cs",
-              "ToolTip": "C:\\dev\\TheTestApp\\StudyGroupTests\\GetStudyGroupTests.cs",
-              "RelativeToolTip": "..\\StudyGroupTests\\GetStudyGroupTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T18:25:44.164Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CreateStudyGroupTests.cs",
-              "DocumentMoniker": "C:\\dev\\TheTestApp\\StudyGroupTests\\CreateStudyGroupTests.cs",
-              "RelativeDocumentMoniker": "..\\StudyGroupTests\\CreateStudyGroupTests.cs",
-              "ToolTip": "C:\\dev\\TheTestApp\\StudyGroupTests\\CreateStudyGroupTests.cs",
-              "RelativeToolTip": "..\\StudyGroupTests\\CreateStudyGroupTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "StudyGroupRepository.cs",
+              "DocumentMoniker": "C:\\dev\\TheTestApp\\TheTestApp.API\\DataLayer\\StudyGroupRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\StudyGroupRepository.cs",
+              "ToolTip": "C:\\dev\\TheTestApp\\TheTestApp.API\\DataLayer\\StudyGroupRepository.cs",
+              "RelativeToolTip": "DataLayer\\StudyGroupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T18:08:04.058Z"
+              "WhenOpened": "2024-09-03T17:16:35.011Z"
             },
             {
               "$type": "Document",
@@ -94,9 +75,46 @@
               "RelativeDocumentMoniker": "..\\StudyGroupTests\\StudyGroupTestSetup.cs",
               "ToolTip": "C:\\dev\\TheTestApp\\StudyGroupTests\\StudyGroupTestSetup.cs",
               "RelativeToolTip": "..\\StudyGroupTests\\StudyGroupTestSetup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T17:47:58.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateStudyGroupTests.cs",
+              "DocumentMoniker": "C:\\dev\\TheTestApp\\StudyGroupTests\\CreateStudyGroupTests.cs",
+              "RelativeDocumentMoniker": "..\\StudyGroupTests\\CreateStudyGroupTests.cs",
+              "ToolTip": "C:\\dev\\TheTestApp\\StudyGroupTests\\CreateStudyGroupTests.cs",
+              "RelativeToolTip": "..\\StudyGroupTests\\CreateStudyGroupTests.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T18:08:04.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\dev\\TheTestApp\\TheTestApp.API\\DataLayer\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "DataLayer\\MyDbContext.cs",
+              "ToolTip": "C:\\dev\\TheTestApp\\TheTestApp.API\\DataLayer\\MyDbContext.cs",
+              "RelativeToolTip": "DataLayer\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T14:33:13.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudyGroupController.cs",
+              "DocumentMoniker": "C:\\dev\\TheTestApp\\TheTestApp.API\\Controllers\\StudyGroupController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudyGroupController.cs",
+              "ToolTip": "C:\\dev\\TheTestApp\\TheTestApp.API\\Controllers\\StudyGroupController.cs",
+              "RelativeToolTip": "Controllers\\StudyGroupController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T17:07:39.961Z"
             },
             {
               "$type": "Document",
@@ -106,33 +124,21 @@
               "RelativeDocumentMoniker": "DataLayer\\IStudyGroupRepository.cs",
               "ToolTip": "C:\\dev\\TheTestApp\\TheTestApp.API\\DataLayer\\IStudyGroupRepository.cs",
               "RelativeToolTip": "DataLayer\\IStudyGroupRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T17:16:08.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StudyGroupRepository.cs",
-              "DocumentMoniker": "C:\\dev\\TheTestApp\\TheTestApp.API\\DataLayer\\StudyGroupRepository.cs",
-              "RelativeDocumentMoniker": "DataLayer\\StudyGroupRepository.cs",
-              "ToolTip": "C:\\dev\\TheTestApp\\TheTestApp.API\\DataLayer\\StudyGroupRepository.cs",
-              "RelativeToolTip": "DataLayer\\StudyGroupRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T17:16:35.011Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "StudyGroupController.cs",
-              "DocumentMoniker": "C:\\dev\\TheTestApp\\TheTestApp.API\\Controllers\\StudyGroupController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudyGroupController.cs",
-              "ToolTip": "C:\\dev\\TheTestApp\\TheTestApp.API\\Controllers\\StudyGroupController.cs",
-              "RelativeToolTip": "Controllers\\StudyGroupController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBsAAAA5AAAAAAAAAA==",
+              "Title": "LeaveStudyGroupTests.cs",
+              "DocumentMoniker": "C:\\dev\\TheTestApp\\StudyGroupTests\\LeaveStudyGroupTests.cs",
+              "RelativeDocumentMoniker": "..\\StudyGroupTests\\LeaveStudyGroupTests.cs",
+              "ToolTip": "C:\\dev\\TheTestApp\\StudyGroupTests\\LeaveStudyGroupTests.cs",
+              "RelativeToolTip": "..\\StudyGroupTests\\LeaveStudyGroupTests.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T17:07:39.961Z"
+              "WhenOpened": "2024-09-03T19:15:37.041Z"
             },
             {
               "$type": "Document",
@@ -169,6 +175,30 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T17:21:40.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetStudyGroupTests.cs",
+              "DocumentMoniker": "C:\\dev\\TheTestApp\\StudyGroupTests\\GetStudyGroupTests.cs",
+              "RelativeDocumentMoniker": "..\\StudyGroupTests\\GetStudyGroupTests.cs",
+              "ToolTip": "C:\\dev\\TheTestApp\\StudyGroupTests\\GetStudyGroupTests.cs",
+              "RelativeToolTip": "..\\StudyGroupTests\\GetStudyGroupTests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T18:25:44.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JoinStudyGroupTests.cs",
+              "DocumentMoniker": "C:\\dev\\TheTestApp\\StudyGroupTests\\JoinStudyGroupTests.cs",
+              "RelativeDocumentMoniker": "..\\StudyGroupTests\\JoinStudyGroupTests.cs",
+              "ToolTip": "C:\\dev\\TheTestApp\\StudyGroupTests\\JoinStudyGroupTests.cs",
+              "RelativeToolTip": "..\\StudyGroupTests\\JoinStudyGroupTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T19:15:44.168Z"
             }
           ]
         }
